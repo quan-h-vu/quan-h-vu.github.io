@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on Quan H. Vu</title>
+    <link>http://localhost:1313/tags/leadership/</link>
+    <description>Recent content in Leadership on Quan H. Vu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2025 16:34:16 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Success Story: Internal Release Notes template</title>
+      <link>http://localhost:1313/samples/sample1/</link>
+      <pubDate>Tue, 18 Feb 2025 16:34:16 -0800</pubDate>
+      <guid>http://localhost:1313/samples/sample1/</guid>
+      <description>&lt;p&gt;I led an initiative to improve our internal release notes template. This story highlights my leadership and expertise in content strategy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem-addressed&#34;&gt;Problem Addressed&lt;/h2&gt;&#xA;&lt;p&gt;Product managers were responsible for providing internal release notes to operations teams to allow them to prepare for upcoming releases. However, some teams expressed dissatisfaction with the lack of detail. Some even admitted they stopped reading the release notes because of this.&lt;/p&gt;&#xA;&lt;p&gt;The PMs themselves were also frustrated because they used the release notes to communicate important information. But they still received questions on details addressed in the release notes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

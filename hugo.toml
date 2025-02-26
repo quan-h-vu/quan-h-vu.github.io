@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Quan H. Vu'
+theme = 'gokarna'
+[params]
+	description = 'Technical writer, content developer, newbie coding enthusiast, veteran pun crafter, pickleballer. I break down walls of text to build bridges to knowledge.'
+[menus]
+	[[menus.main]]
+		name = 'Home'
+		pageRef = '/'
+		weight = 10
+	[[menus.main]]
+		name = 'Samples'
+		pageRef = '/samples'
+		weight = 20
+	[[menus.main]]
+		name = 'Posts'
+		pageRef = '/posts'
+		weight = 30
