@@ -1,0 +1,11 @@
+<div class="container list-posts">
+
+    <h1 class="list-title">{{ .Name }}</h1>
+
+
+
+    {{- range .Pages -}}
+        {{- partial "list-posts.html" . -}}
+    {{ end }}
+
+</div>
