@@ -35,4 +35,6 @@ After the clip is saved, it’s stored in the Video Library. It can be viewed an
 
 Image test
 
-![test](self3.jpg)
+![ page resource test](self3.jpg)
+
+![global resource test](images/self.jpg)
