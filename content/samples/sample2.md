@@ -32,3 +32,7 @@ The Video Retrieval portal lets you search for footage from your cameras’ DVR 
 5. Press Save.
 
 After the clip is saved, it’s stored in the Video Library. It can be viewed and downloaded for 90 days after retrieval. For more detail, go to [Managing the Video Library](https://quanhvu.com).
+
+Image test
+
+![test](https://quan-h-vu.github.io/assets/images/self-2.jpg)
