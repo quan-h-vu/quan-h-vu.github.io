@@ -4,7 +4,7 @@ title = 'Quan H. Vu'
 theme = 'gokarna'
 [params]
 	description = 'Technical writer, content developer, newbie coding enthusiast, veteran pun crafter, pickleballer. I break down walls of text to build bridges to knowledge.'
-	avatarUrl = './images/self.jpg'
+	avatarUrl = 'images/self.jpg'
 [menus]
 	[[menus.main]]
 		name = 'Home'
