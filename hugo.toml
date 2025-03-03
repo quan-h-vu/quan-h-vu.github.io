@@ -18,6 +18,10 @@ theme = 'gokarna'
 		name = 'Posts'
 		pageRef = '/posts'
 		weight = 30
+	[[menus.main]]
+		name = 'LinkedIn'
+		url = 'https://www.linkedin.com/in/quanhvu/'
+		weight = 40
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderHooks]
