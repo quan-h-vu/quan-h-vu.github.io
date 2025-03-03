@@ -6,3 +6,5 @@ type = 'post'
 +++
 
 These are the samples below.
+
+![global image test](images/self.jpg)
