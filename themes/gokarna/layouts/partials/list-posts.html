@@ -4,6 +4,8 @@
      {{ $displayDate := true }}
      {{ $tagsHidePostDate := or .Site.Params.Hidden.TagsPostDate slice }}
      {{ $postTags := or .Params.Tags slice }}
+	 {{ $hiddenTags := or .Site.Params.Hidden.Tags slice }}
+
 
      {{ if gt ($tagsHidePostDate | intersect $postTags | len) 0 }}
        {{ $displayDate = false }}
@@ -15,6 +17,13 @@
      {{ end }}
 	 
 	 <p>{{ .Description }}</p>
+	    <ul class="post-tags">
+          {{ range $tag := $postTags }}
+           {{ if not (in $hiddenTags $tag) }}
+             <li class="post-tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+           {{ end }}
+         {{ end }}
+        </ul>
 	 <hr>
 
 </div>
