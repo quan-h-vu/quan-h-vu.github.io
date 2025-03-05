@@ -25,7 +25,7 @@ Follow this guide to create and deploy a Hugo site to GitHub Pages.
 For users coming from a traditional CMS background, it's useful to review the tools you'll use.
 
 - command line interface (CLI) tool: Used for installation, creating new content files, publishing and deploying files to your site. This includes applications such as Powershell and VSCode.
-- text editor: Used to edit content files, config files, and templates. This includes applications such as Notepad++.
+- text editor: Used to edit content files, configuration files, and templates. This includes applications such as Notepad++.
 - GitHub web UI: Used to monitor processes when changes are deployed to the site.
 
 ## Installation
@@ -45,13 +45,25 @@ The Dart Sass and Hugo installations require you to add new directories to your 
 
 1. [Select a theme](https://themes.gohugo.io/). Consider whether you need a single- or multi-page theme for your site. It's also worth noting each theme's documentation. Some themes have sparse documentation, which can make it more difficult to configure the theme to your needs.
 2. Follow [Hugo's quick start tutorial](https://gohugo.io/getting-started/quick-start/) to create a site and a new page.
-3. Create additional site content. To ensure proper image processing, site content should be organized in the structure below.
+3. Enable embedded link and image render hooks. Open the site configuration file, `hugo.toml`, in your text editor. Add the following into the file.
+
+```
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.link]
+        enableDefault = true
+      [markup.goldmark.renderHooks.image]
+        enableDefault = true
+```
+
+4. Create additional site content. To ensure proper image processing, site content should be organized in the structure below.
 
 ```
 assets/
 └── images/
     ├── a.jpg  <-- global resource, accessible sitewide
-    └── b.jpg  <-- global resource
+    └── b.jpg
 content/
 ├── posts/
 │   ├── postname1/
@@ -70,7 +82,7 @@ Follow [Hugo's instructions for hosting on GitHub Pages](https://gohugo.io/hosti
 
 In addition, I had to remove my public directory from source control using these steps.
 
-1. Create a .gitignore file.
+1. Create a `.gitignore` file.
 
 ```
 touch .gitignore
@@ -82,7 +94,7 @@ For Powershell users, the command uses this syntax.
 "" > .gitignore
 ```
 
-2. Open the .gitignore file in your text editor. Add the following:
+2. Open the `.gitignore` file in your text editor. Add the following:
 
 ```
 .hugo_build.lock
