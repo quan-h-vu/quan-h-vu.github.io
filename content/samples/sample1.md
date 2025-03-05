@@ -26,7 +26,6 @@ I crafted a new template calling for more specific information. Rather than one 
 - Solution Implemented
 - Why It Matters to Clients
 
-
 To finalize the template, I gathered feedback from several stakeholders, including:
 
 - product managers
