@@ -22,7 +22,7 @@
            {{ if not (in $hiddenTags $tag) }}
              <li class="post-tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a></li>
            {{ end }}
-         {{ end }}
+         {{ end }}&nbsp
         </ul>
 	 <hr>
 
