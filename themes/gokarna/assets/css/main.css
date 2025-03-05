@@ -288,6 +288,7 @@ a:hover .feather-sun {
   color: inherit;
   display: inline-block;
   font-size: 14px;
+  margin-right: 3px;
 }
 .post-tags .post-tag:hover {
   background-color: var(--light-text-color);
