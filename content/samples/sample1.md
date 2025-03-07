@@ -4,8 +4,9 @@ draft = false
 title = 'Success Story: Internal Release Notes template'
 type = 'post'
 description = 'I led an initiative to improve our internal release notes template. This story highlights my leadership and expertise in content strategy.'
-tags = ['release notes','content strategy','leadership']
+tags = ['release notes','content strategy','leadership','success story']
 weight = 10
+showTableOfContents = true
 +++
 
 I led an initiative to improve our internal release notes template. This story highlights my leadership and expertise in content strategy.

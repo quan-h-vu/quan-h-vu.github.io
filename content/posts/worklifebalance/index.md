@@ -3,7 +3,7 @@ date: 2025-02-21T11:30:05-08:00
 description: "Here are my tips for achieving work-life balance at the end of the world."
 # image: ""
 lastmod: 2025-02-21
-showTableOfContents: false
+showTableOfContents: true
 tags: ["wellness"]
 title: "Achieving Work-Life Balance in the Apocalypse"
 type: "post"

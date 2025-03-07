@@ -4,8 +4,9 @@ draft = false
 title = 'Building a Portfolio with Hugo and GitHub Pages'
 type = 'post'
 description = 'This site was built with Hugo, a static site generator. This sample documents how I created and deployed this site.'
-tags = ['Hugo','Git','SSG']
+tags = ['Hugo','Git','SSG','procedure']
 weight = 15
+showTableOfContents = true
 +++
 
 ## About This Sample
@@ -38,7 +39,7 @@ Install the following. Note that the Dart Sass and Hugo installations require yo
 
 ## Creating a Site
 
-1. [Select a theme](https://themes.gohugo.io/). Consider whether you need a single- or multi-page theme for your site. It's also worth noting each theme's documentation. Some themes have sparse documentation, which can make it more difficult to configure the theme to your needs.
+1. [Select a theme](https://themes.gohugo.io/). Consider whether you need a single- or multi-page theme for your site. It's also worth noting each theme's documentation. This site uses [the Gokarna theme](https://github.com/gokarna-theme/gokarna-hugo?tab=readme-ov-file), which provides [extensive](https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/) [documentation](https://gokarna-hugo.netlify.app/posts/theme-documentation-advanced/). This makes it easier to configure compared to themes with sparse documentation.
 2. Follow [Hugo's quick start tutorial](https://gohugo.io/getting-started/quick-start/) to create a site and a new page.
 3. Enable embedded link and image render hooks: Open the site configuration file, `hugo.toml`, in your text editor. Add the following into the file.
 
@@ -71,7 +72,7 @@ content/
 └── _index.md  <-- site homepage
 ```
 
-## Deploying a Site to GitHub Pages
+## Deploying to GitHub Pages
 
 Follow [Hugo's instructions for hosting on GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/). Note that for Powershell users, the `touch filename.txt` command is replaced by `"" > filename.txt`.
 

@@ -3,8 +3,10 @@ languageCode = 'en-us'
 title = 'Quan H. Vu'
 theme = 'gokarna'
 [params]
-	description = 'Technical writer, content developer, newbie coding enthusiast, veteran pun crafter, pickleballer. I break down walls of text to build bridges to knowledge.'
+	description = 'Technical writer, content developer, newbie coder, veteran pun crafter. I break down walls of text to build bridges to knowledge.'
 	avatarUrl = '/images/self.jpg'
+	avatarAltText = 'Portrait of Quan'
+	showBackToTopButton = true
 [menus]
 	[[menus.main]]
 		name = 'Home'
@@ -29,3 +31,7 @@ theme = 'gokarna'
         enableDefault = true
       [markup.goldmark.renderHooks.image]
         enableDefault = true
+  [markup.tableOfContents]
+	startLevel = 1
+	endLevel = 3
+	ordered = false
