@@ -43,7 +43,7 @@ Install the following. Note that the Dart Sass and Hugo installations require yo
 2. Follow [Hugo's quick start tutorial](https://gohugo.io/getting-started/quick-start/) to create a site and a new page.
 3. Enable embedded link and image render hooks: Open the site configuration file, `hugo.toml`, in your text editor. Add the following into the file.
 
-```
+```toml
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderHooks]
@@ -55,7 +55,7 @@ Install the following. Note that the Dart Sass and Hugo installations require yo
 
 4. Create additional site content. To ensure proper image processing, site content should be organized in the structure below.
 
-```
+```bash
 assets/
 └── images/
     ├── a.jpg  <-- global resource, accessible sitewide
@@ -68,7 +68,7 @@ content/
 │   ├── postname2/
 │   │   ├── d.jpg
 │   │   └── index.md
-│   └── _index.md  <-- list page for posts section
+│   └── _index.md  <-- posts section list page
 └── _index.md  <-- site homepage
 ```
 
@@ -80,19 +80,19 @@ In addition, remove your public directory from source control using these steps.
 
 1. Create a `.gitignore` file.
 
-```
+```bash
 touch .gitignore
 ```
 
 For Powershell users, the command uses this syntax.
 
-```
+```bash
 "" > .gitignore
 ```
 
 2. Open the `.gitignore` file in your text editor. Add the following:
 
-```
+```bash
 .hugo_build.lock
 /public/
 /resources/
@@ -100,7 +100,7 @@ For Powershell users, the command uses this syntax.
 
 3. Remove the public directory from source control. Commit and push your changes:
 
-```
+```bash
 git rm -rf public/
 git add -A
 git commit -m "Remove public directory from source control"

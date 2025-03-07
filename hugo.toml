@@ -2,6 +2,8 @@ baseURL = 'https://quan-h-vu.github.io/'
 languageCode = 'en-us'
 title = 'Quan H. Vu'
 theme = 'gokarna'
+pygmentsStyle = "solarized-dark256"
+
 [params]
 	description = 'Technical writer, content developer, newbie coder, veteran pun crafter. I break down walls of text to build bridges to knowledge.'
 	avatarUrl = '/images/self.jpg'

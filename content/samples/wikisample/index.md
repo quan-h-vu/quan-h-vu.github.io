@@ -4,9 +4,9 @@ draft = true
 title = 'Wikisample'
 type = 'post'
 description = 'This site was built with Hugo, a static site generator. This sample documents how I created and deployed this site.'
-tags = ['Hugo','Git','SSG','procedure']
+tags = ['Hugo','Git','SSG']
 weight = 6
-showTableOfContents = false
+showTableOfContents = true
 +++
 
 ## About This Sample
