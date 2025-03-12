@@ -12,17 +12,17 @@ draft: false
 
 I had to step away from work recently for reasons I hadn't expected. The main reason had nothing to do with my employer. Things were going well at work. I had felt reinvigorated at my last company for over a year prior to my departure.
 
-Unfortunately, I didn't have work-life balance because I was a mess outside of work. I had recently left my partner of seven years. More than that, the COVID-19 pandemic had taken a severe mental toll on me. A lot happened in the world while we were all trapped inside our homes. Much more continues to happen in the world today. If you pay enough attention to the news, it can look like the world is ending, minus the zombie outbreak.
+Unfortunately, I was a mess outside of work. The COVID-19 pandemic had taken a severe toll on me. I left my domestic partner of many years by its end. A lot happened in the world while we were all trapped inside our homes. Much more continues to happen in the world today. If you pay too much attention to the news, it can look like the world is ending, minus the zombie outbreak.
 
-To achieve work-life balance, I needed to learn how to cope effectively. For anyone else struggling with this, here are my tips for achieving work-life balance in the apocalypse.
+I didn't have work-life balance. Any stress at work was magnified in the absence of joy outside of work. I needed to learn how to cope effectively. For anyone else struggling with this, here are my tips for achieving work-life balance in the apocalypse.
 
 ## Reduce news consumption
 
 Anyone with a cell phone has access to an infinite amount of news media at any time of day. While it's healthy to be informed, it's not healthy to be fixated on the news.
 
-Reduce your news consumption, specifically for hard news. Stay informed enough to take action when needed. But your interest in any given topic should be proportional to the amount of control you have. Establish appropriate boundaries with the news.
+Reduce your news consumption, specifically for [hard news](https://www.britannica.com/topic/hard-news). Stay informed enough to take action when needed. But your interest in any given topic should be proportional to the amount of control you have. Establish appropriate boundaries with the news.
 
-As an example, consider the recent wildfires in Los Angeles. These are the most damaging wildfires ever recorded. There was interest and support nationwide.
+As an example, consider the [recent wildfires in Los Angeles](https://abcnews.go.com/US/los-angeles-wildfires-timeline-palisades-eaton/story?id=117643473). These are the most damaging wildfires ever recorded. There was interest and support nationwide.
 
 If you want to, you can fall down the rabbithole of coverage around these fires. But realistically, the only control most people have in this situation is to donate, either money or clothing/supplies. After you make a donation, there's not much practical benefit in continuing to follow this story. If following the story starts causing stress at some point--for example, if the specific details of individual victims make it hard for you to concentrate on daily tasks--it's healthier to stop.
 
@@ -30,7 +30,7 @@ If you want to, you can fall down the rabbithole of coverage around these fires.
 
 It's worth calling out that you should avoid news consumption on social media as much as possible. Rage bait abounds on social media platforms and for good reason. If you want people to take action on anything, one of the most efficient ways to do so is to get them mad. Social media is full of users actively trying to get us mad enough to take action.
 
-One problem with this approach is that, whether you take action or not, you're still left holding the anger. Even after you've donated or signed the petition or voted, you're often still angry. In addition, there will always be a legitimate reason to be angry about a legitimate issue somewhere in the world. If you take the opportunity to get mad every time, you will spend a large chunk of your life being angry. That's not healthy and not sustainable.
+One problem with this approach is that, whether you take action or not, you're still left holding the anger. Even after you've donated or signed the petition or shared a hashtag, you're often still angry. In addition, there will always be a legitimate reason to be angry about a legitimate issue somewhere in the world. If you take the opportunity to get mad every time, you will spend a large chunk of your life being angry. That's not healthy and not sustainable.
 
 Social media is an incubator for anger. Avoid engaging with news on social media. Establish appropriate boundaries with social media to help manage its effect on you.
 
