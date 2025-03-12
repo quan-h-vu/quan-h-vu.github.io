@@ -12,9 +12,11 @@ draft: false
 
 I had to step away from work recently for reasons I hadn't expected. The main reason had nothing to do with my employer. Things were going well at work. I had felt reinvigorated at my last company for over a year prior to my departure.
 
-Unfortunately, I was a mess outside of work. The COVID-19 pandemic had taken a severe toll on me. I left my domestic partner of many years by its end. A lot happened in the world while we were all trapped inside our homes. Much more continues to happen in the world today. If you pay too much attention to the news, it can look like the world is ending, minus the zombie outbreak.
+Unfortunately, I was a mess outside of work. The COVID-19 pandemic had taken a severe toll on me. I left my domestic partner of many years by its end. A lot happened in the world while we were all trapped inside our homes. Much more continues to happen in the world today. If you pay too much attention to the news, it can look like the world is ending. And if you don't know how to cope, you can end up like the dog in this meme.
 
-I didn't have work-life balance. Any stress at work was magnified in the absence of joy outside of work. I needed to learn how to cope effectively. For anyone else struggling with this, here are my tips for achieving work-life balance in the apocalypse.
+![This Is Fine meme](https://i.pinimg.com/originals/47/bf/98/47bf98cd9e7f1d64d60ee5b0be6c6613.jpg)
+
+I needed to learn how to cope effectively. I didn't have work-life balance. Any stress at work was magnified in the absence of joy outside of work. For anyone else struggling with this, here are my tips for achieving work-life balance in the apocalypse.
 
 ## Reduce news consumption
 
