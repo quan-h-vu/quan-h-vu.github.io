@@ -4,7 +4,7 @@ draft = false
 title = 'Success Story: Building an Internal Product Wiki'
 type = 'post'
 description = 'I led an initiative to build an internal wiki for product documentation using Confluence. This story highlights my leadership and expertise in content strategy.'
-tags = ['content strategy','leadership','success story']
+tags = ['content strategy','leadership','success story','collaboration']
 weight = 5
 showTableOfContents = true
 +++
@@ -31,7 +31,7 @@ While this approach can see individual documents to completion, it didn't work f
 
 ## Solution Implemented
 
-Ultimately, the solution was not just the internal wiki. It was also the mechanisms for collaboration around the wiki.
+Ultimately, the solution was not just the internal wiki. It was also [the mechanisms for collaboration](/posts/pointlessmeetings) around the wiki.
 
 The wiki started gaining traction when I started collaborating with other teams more formally. I enlisted the help of product managers to contribute to articles about their features. I also started meeting with various operations teams on a monthly basis to discuss their documentation needs. This consistent communication and collaboration fostered trust in the internal wiki, promoting wider adoption.
 
@@ -43,4 +43,4 @@ The Product-led wiki reduced confusion internally, leading to smoother feature r
 
 The linked sample uses a modified version of a template used in the wiki. I have added a fictional feature based on a real feature I documented, though many details have been changed for this sample.
 
-[Headway Warning Identification (AM2)](/samples/wikisample/index.md)
+[Headway Warning Identification (AM2)](/samples/wikisample)

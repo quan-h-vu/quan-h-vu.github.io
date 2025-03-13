@@ -5,7 +5,7 @@ title = 'Building a Portfolio with Hugo and GitHub Pages'
 type = 'post'
 description = 'This site was built with Hugo, a static site generator. This sample documents how I created and deployed this site.'
 tags = ['Hugo','Git','SSG','procedure']
-weight = 15
+weight = 9
 showTableOfContents = true
 +++
 

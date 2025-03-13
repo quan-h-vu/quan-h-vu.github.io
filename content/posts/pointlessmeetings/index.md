@@ -14,11 +14,11 @@ Have you ever attended a long meeting that could've been handled in a quick emai
 
 But as I learned, sometimes "pointless" meetings have a point.
 
-In 2022, my company hired a second tech writer. I was more than happy to have help after so many years. But soon after her arrival, she invited me to a lot of pointless meetings. We started meeting with various teams on a monthly basis. The meetings tended to meander and end early. Often, members of the other team also seemed unsure about the meeting's purpose.
+In 2021, my company hired [a second tech writer](https://www.linkedin.com/in/laurendetreville/). I was more than happy to have help after so many years. But soon after her arrival, she invited me to a lot of pointless meetings. We started meeting with various teams on a monthly basis. The meetings tended to meander and end early. Often, members of the other team also seemed unsure about the meeting's purpose.
 
 About a year later, the purpose became clear.
 
-[I had been working to establish a Product-led wiki](/samples/internalwiki/index) for some time. We met regularly with a member of the Client Success team to discuss their documentation needs on the wiki. That member was also the primary author behind a separate, Client Success-led wiki. After a year of meetings, he agreed to deprecate his wiki in favor of the Product wiki.
+[I had been working to establish a Product-led wiki](/samples/internalwiki/index) for some time. We met regularly with a member of the Client Success team to discuss their documentation needs on the wiki. That member was also the primary author behind a separate, Client Success-led wiki. After a year of meetings, he agreed to deprecate his wiki in favor of the Product wiki. I was stunned.
 
 ![My look of amazement at the news](https://gifsec.com/wp-content/uploads/2022/10/jaw-drop-gif-2.gif)
 
