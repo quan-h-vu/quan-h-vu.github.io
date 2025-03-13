@@ -7,7 +7,7 @@ showTableOfContents: false
 tags: ["collaboration","lessons learned"]
 title: "The Point of Pointless Meetings"
 type: "post"
-draft: true
+draft: false
 ---
 
 Have you ever attended a long meeting that could've been handled in a quick email? If you're a working professional, chances are that you have. There are few worse feelings in corporate life than attending an unnecessary meeting while other necessary work nags at you. It's likely why you can often find attendees working on other projects during meetings.

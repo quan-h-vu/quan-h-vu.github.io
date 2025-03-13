@@ -1,6 +1,6 @@
 +++
 date = '2025-03-03T16:58:18-08:00'
-draft = true
+draft = false
 title = 'Success Story: Building an Internal Product Wiki'
 type = 'post'
 description = 'I led an initiative to build an internal wiki for product documentation using Confluence. This story highlights my leadership and expertise in content strategy.'
@@ -43,4 +43,4 @@ The Product-led wiki reduced confusion internally, leading to smoother feature r
 
 The linked sample uses a modified version of a template used in the wiki. I have added a fictional feature based on a real feature I documented, though many details have been changed for this sample.
 
-[Article name](linkhere)
+[Headway Warning Identification (AM2)](/samples/wikisample/index.md)
