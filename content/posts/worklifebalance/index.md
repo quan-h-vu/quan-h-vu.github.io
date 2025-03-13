@@ -48,6 +48,6 @@ During the pandemic, we needed the news for very practical reasons. Nowadays, th
 
 It's worth calling out that you should avoid news consumption on social media as much as possible. Rage bait abounds on social media platforms and for good reason. If you want people to take action on anything, one of the most efficient ways to do so is to get them mad. Social media is full of users actively trying to get us mad enough to take action.
 
-I mostly stopped using social media years ago. One issue I had was that, as social media showed me, there was always a legitimate reason to be angry about a legitimate issue somewhere in the world. I spent a large chunk of time being angry about issues all around the world, exposed to me via social media. But with little control over many of these issues, my social media consumption amounted to little more than doomscrolling. It was not healthy or sustainable.
+I mostly stopped using social media years ago. One issue I had was that, as social media showed me, there was always a legitimate reason to be angry about a legitimate issue somewhere in the world. I spent a large chunk of time being angry about issues all around the world, exposed to me via social media. But with little control over many of these issues, my social media consumption amounted to doomscrolling. It was not healthy or sustainable.
 
 Social media is an incubator for anger. Avoid engaging with news on social media. Establish appropriate boundaries with social media to help manage its effect on you.
