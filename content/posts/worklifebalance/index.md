@@ -7,7 +7,7 @@ showTableOfContents: true
 tags: ["wellness"]
 title: "Achieving Work-Life Balance in the Apocalypse"
 type: "post"
-draft: false
+draft: true
 ---
 
 I had to step away from work recently for reasons I hadn't expected. The main reason had nothing to do with my employer. Things were going well at work. I had felt reinvigorated at my last company for over a year prior to my departure.
