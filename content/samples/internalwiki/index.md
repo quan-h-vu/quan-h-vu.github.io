@@ -38,9 +38,3 @@ The wiki started gaining traction when I started collaborating with other teams 
 ## Why It Matters
 
 The Product-led wiki reduced confusion internally, leading to smoother feature releases. The Client Success team retired their own wiki altogether in favor of the Product-led wiki. The Tech Support and Sales Education teams audited their materials using the Product wiki.
-
-## About This Sample
-
-The linked sample uses a modified version of a template used in the wiki. I have added a fictional feature based on a real feature I documented, though many details have been changed for this sample.
-
-[Headway Warning Identification (AM2)](/samples/wikisample)
