@@ -6,6 +6,7 @@ type = 'post'
 description = 'This sample was written about a fictional dashcam product, showing users how to retrieve DVR video via an online portal.'
 tags = ['task','Madcap Flare']
 weight = 20
+showTableOfContents = true
 +++
 
 ## About This Sample
@@ -27,13 +28,13 @@ To access a camera's storage, it must be connected to a Wi-Fi network. For more 
 ## Instructions
 
 1. Go to the Vehicle Connect page. Search for the desired vehicle using the available search filters.
-2. Press Connect for the desired vehicle. This opens the Video Retrieval page to access the vehicle’s available DVR footage.
-3. On the Video Retrieval page, search for desired video footage using the available playback tools.
-	- Zoom: Each camera can hold up to 200 hours of footage. Use the timeline’s zoom options to focus on specific 24-hr, 4-hr, or 1-hr sections for playback.
-	- Speed: Video playback speed can be adjusted for easier review from 0.25x up to 8x speed.
-	- Map: The map shows segments representing available video based on the vehicle’s location. Select a segment from the map to queue up footage from there. If multiple segments are available at a location, right-click on the location and select from the list.
-	- Tags: Tags are recorded for certain events including ignition on/off, door open/closed, and ramp/lift usage. These are displayed over the timeline. Use these as context clues to find the desired footage.
-4. After you’ve identified the desired footage, press Clip. Drag the markers to the start and end of the footage to be saved (maximum: 300 seconds per clip). If desired, you can edit the Clip Name from the default.
-5. Press Save.
+2. Press **Connect** for the desired vehicle. This opens the Video Retrieval page to access the vehicle’s available DVR footage.
+3. On the Video Retrieval page, search for desired footage using the available playback tools.
+	- **Zoom**: Each camera can hold up to 200 hours of footage. Use the timeline’s zoom options to focus on specific 24-hr, 4-hr, or 1-hr sections for playback.
+	- **Speed**: Video playback speed can be adjusted for easier review from 0.25x up to 8x speed.
+	- **Map**: The map shows segments representing available video based on the vehicle’s location. Select a segment from the map to queue up footage from there. If multiple segments are available at a location, right-click on the location and select from the list.
+	- **Tags**: Tags are recorded for certain events including ignition on/off, door open/closed, and ramp/lift usage. These are displayed over the timeline. Use these as context clues to find the desired footage.
+4. After you’ve identified the desired footage, press **Clip**. Drag the markers to the start and end of the footage to be saved (maximum: 300 seconds per clip). If desired, you can edit the Clip Name from the default.
+5. Press **Save**.
 
 After the clip is saved, it’s stored in the Video Library. It can be viewed and downloaded for 90 days after retrieval. For more detail, go to [Managing the Video Library](/samples/dvr).

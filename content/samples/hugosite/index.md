@@ -17,7 +17,7 @@ The sample begins below the line.
 
 ---
 
-This portfolio site was built using Hugo, a static site generator (SSG). SSGs are becoming increasingly common as a publishing tool, particularly for API documentation and other docs-as-code scenarios. Unlike a traditional content management system (CMS), SSGs don't have databases. This enables them to build websites more quickly. They are also more secure because without a database, there is no threat of database hacks.
+This portfolio site was built using Hugo, [a static site generator (SSG)](https://idratherbewriting.com/learnapidoc/pubapis_static_site_generators.html). SSGs are becoming increasingly common as a publishing tool, particularly for API documentation and other docs-as-code scenarios. Unlike a traditional content management system (CMS), SSGs don't have databases. This enables them to build websites more quickly. They are also more secure because without a database, there is no threat of database hacks.
 
 Hugo is one of the most popular SSGs available. For content developers interested in creating a portfolio site, follow this guide to create a Hugo site and deploy it to GitHub Pages.
 
@@ -53,23 +53,28 @@ Install the following. Note that the Dart Sass and Hugo installations require yo
         enableDefault = true
 ```
 
-4. Create additional site content. To ensure proper image processing, site content should be organized in the structure below.
+4. Create additional site content. To ensure proper image processing, site content should be organized in the structure below with global resources in `assets/images` and page resources bundled into separate `content` folders.
 
 ```bash
 assets/
 └── images/
-    ├── a.jpg  <-- global resource, accessible sitewide
+    ├── a.jpg			<-- global resource, accessible sitewide
     └── b.jpg
 content/
-├── posts/
-│   ├── postname1/
-│   │   ├── c.jpg  <-- page resource, accessible by postname1/index.md only
-│   │   └── index.md  <-- contents of postname1 page
-│   ├── postname2/
+├── samples/
+│   ├── sample1/
+│   │   ├── c.jpg 		<-- page resource, accessible by sample1/index.md only
+│   │   └── index.md  	<-- contents of sample1 page (without underscore)
+│   ├── sample2/
 │   │   ├── d.jpg
 │   │   └── index.md
-│   └── _index.md  <-- posts section list page
-└── _index.md  <-- site homepage
+│   └── _index.md		<-- samples section list page (with underscore)
+├── posts/
+│   ├── post1/
+│   │   ├── e.jpg
+│   │   └── index.md
+│   └── _index.md
+└── _index.md			<-- site homepage (with underscore)
 ```
 
 ## Deploying to GitHub Pages
@@ -78,7 +83,7 @@ Follow [Hugo's instructions for hosting on GitHub Pages](https://gohugo.io/hosti
 
 In addition, remove your public directory from source control using these steps.
 
-1. Create a `.gitignore` file.
+1. Create a `.gitignore` file using this command.
 
 ```bash
 touch .gitignore
@@ -98,10 +103,15 @@ For Powershell users, the command uses this syntax.
 /resources/
 ```
 
-3. Remove the public directory from source control. Commit and push your changes:
+3. Remove the public directory from source control.
 
 ```bash
 git rm -rf public/
+```
+
+4. Commit and push your changes.
+
+```bash
 git add -A
 git commit -m "Remove public directory from source control"
 git push
