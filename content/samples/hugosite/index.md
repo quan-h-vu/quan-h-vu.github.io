@@ -4,14 +4,14 @@ draft = false
 title = 'Building a Portfolio with Hugo and GitHub Pages'
 type = 'post'
 description = 'This site was built with Hugo, a static site generator. This sample documents how I created and deployed this site.'
-tags = ['Hugo','Git','SSG','procedure']
+tags = ['Hugo','Git','SSG','task']
 weight = 9
 showTableOfContents = true
 +++
 
 ## About This Sample
 
-The sample below was created to document my own process of creating this site. This is written primarily for other content developers moving from a traditional content management system into a static site generator for the first time.
+The sample below was created to document my own process of creating this site. This is written primarily for other content developers moving from a traditional content management system into a static site generator.
 
 The sample begins below the line.
 

@@ -1,17 +1,19 @@
 +++
 date = '2025-03-07T09:56:49-08:00'
-draft = true
+draft = false
 title = 'Headway Warning Identification (AM2)'
 type = 'post'
 description = 'This sample uses a template from an internal wiki I established. It documents a fictional dashcam product with AI hazard identification.'
-tags = ['product documentation']
+tags = ['concept','reference','troubleshooting','Confluence']
 weight = 6
 showTableOfContents = true
 +++
 
 ## About This Sample
 
-The sample below uses a modified version of a template from an internal wiki I established. I have added a fictional feature based on a real feature I documented, though many details have been changed for this sample.
+The sample below showcases [an internal wiki I established](/samples/internalwiki "Success Story: Building an Internal Product Wiki"), using a modified version of a page template from the wiki. I have included details of a dashcam product's ability to detect tailgating on the road. This is a fictional feature based on a real feature I documented, though many details have been changed for this sample.
+
+This was originally created in Confluence. I have recreated it here in Markdown. The original also included audio files for the alerts used but these have not been recreated. Links in the sample are blank cross-references.
 
 The sample begins below the line.
 
@@ -19,9 +21,9 @@ The sample begins below the line.
 
 ## Overview
 
-The AM2 model of hazard identification is designed to reward reactive drivers. The model integrates audio alerts and incident logs into a cohesive system of escalation. Audio alerts allow drivers to correct their own driving behavior; an incident log is only generated as the next level of escalation if they fail to react. Even further, prevention logs are generated for reactive drivers, giving managers an opportunity to recognize employees.
+The AM2 model of hazard identification is designed to reward reactive drivers. The model integrates audio alerts and incident logs into a cohesive system of escalation. Audio alerts allow drivers to correct their own driving behavior; an incident log is only generated as the next level of escalation if they fail to react. Even further, prevention logs are generated for reactive drivers, giving managers an opportunity to recognize them.
 
-Headway Warning (HWW) identifies instances in which drivers stay within close proximity of other vehicles for an extended duration (often known as tailgating). This article focuses on the AM2 identification of HWW. For details on AM1, go to Headway Warning Identification (AM1).
+Headway Warning (HWW) identifies instances in which drivers stay within close proximity of other vehicles for an extended duration (often known as tailgating). This article focuses on the AM2 identification of HWW. For details on AM1, go to [Headway Warning Identification (AM1)](/samples/hww).
 
 ## Key Differences: AM1 vs. AM2
 
@@ -34,7 +36,7 @@ Headway Warning (HWW) identifies instances in which drivers stay within close pr
 - Compatible devices
 	- Megadrive-16 series cameras
 	- Saturn-32 series cameras
-- OBD cable connection to the vehicle network. For more detail, go to [Installations](/#).
+- OBD cable connection to the vehicle network. For more detail, go to [Installations](/samples/hww).
 
 ## Expected User Experience
 
@@ -47,25 +49,26 @@ After initial calibration, sensors recalibrate periodically to account for subtl
 ### Hazard Identification
 
 1. During a trip, the camera scans the road for the object vehicle in front of the driver's vehicle. It uses the driver's vehicle speed to calculate the distance in terms of seconds.
-2. The camera issues an audio alert when the HWW criteria below are met:
+2. The camera issues an audio alert when the HWW criteria below are met for 10 continuous seconds:
 	- The driver's vehicle is going at least 40 km/h.
-	- The distance between the driver's vehicle and the object vehicle is 1.0 seconds or less for 10 continuous seconds.
-3. If the driver's vehicle repeatedly meets the HWW criteria, the camera repeats the audio alert up to 2 times in a 5-minute window.
-4. If the driver's vehicle continues to meet the HWW criteria after the last alert, an [incident log](/# "timeline of incident progression from first alert") is generated.
-	- Conversely, if the driver's vehicle stops meeting the HWW criteria before the last alert, a [prevention log](/# "timeline of incident progression and resolution") is generated.
-5. After the last alert is issued or if no repeat alerts are issued for 5 minutes, the alert count is reset.
-6. At the end of the trip, if any logs were recorded, they are sent to users in the AZEL online portal.
+	- The distance between the driver's vehicle and the object vehicle is 1.0 seconds or less.
+3. If the driver's vehicle continues to meet the HWW criteria, the camera repeats the audio alert every 5 seconds.
+4. If the driver's vehicle meets the HWW criteria for 25 continuous seconds, an [incident log](/samples/hww "timeline of incident progression from first alert") is generated.
+	- Conversely, if the driver's vehicle stops meeting the HWW criteria before the 25-second threshold, a [prevention log](/samples/hww "timeline of incident progression and resolution") is generated.
+5. After generating a log, the timer for HWW identification is reset. 
+6. At the end of the trip, all logs are sent to users in the Drivecast online portal.
 
 ## Known Limitations/Issues
 
-- Many manufacturers design vehicles with native ADAS signals. Integration of these signals into the AM2 model is not yet supported. To track this, go to KNUX-9753.
+- Many manufacturers design vehicles with native ADAS signals. Integration of these signals into the AM2 model is not yet supported. To track this, go to [KNUX-9753](/samples/hww "Jira story for ADAS API development").
 - Mixed fleets are not supported. Clients must migrate to the AM2 model group-by-group.
-- Automatic recalibration is designed for small shifts in camera positioning. If clients remove the camera from the windshield for any reason, the camera must be manually recalibrated. For details, go to [Diagnostics](/#).
+- Automatic recalibration is designed for small shifts in camera positioning. If clients remove the camera from the windshield for any reason, the camera must be manually recalibrated. For details, go to [Maintenance](/samples/hww).
+- If the vehicle is in an area with poor reception, logs may not be sent. As a workaround, the camera can be configured to connect to a Wi-Fi network to send any logs. For more detail, refer to [Configuring Wi-Fi Networks on the Device](/samples/hww).
 
 ## Enabling the Feature
 
 | Setting           | Description                                                                                    | Default          |
 |-------------------|------------------------------------------------------------------------------------------------|------------------|
 | AM2 HWW velo_min  | Minimum speed (in km/h) the driver's vehicle must travel to meet HWW criteria.                 | 40 km/h |
-| AM2 HWW close_dur | Duration (in seconds) in which the driver's vehicle and object vehicle are in close proximity. | 10 s    |
-| AM2 HWW alert_max | Maximum number of alerts to issue in a 5-minute period before an incident is logged.           | 3 alerts      |
+| AM2 HWW dur_alert1 | Duration (in seconds) in which the HWW criteria are met before issuing the first alert. | 10 s    |
+| AM2 HWW dur_max | Duration (in seconds) in which the HWW criteria are met before generating an incident log.         | 25 s      |

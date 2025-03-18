@@ -38,3 +38,9 @@ The wiki started gaining traction when I started collaborating with other teams 
 ## Why It Matters
 
 The Product-led wiki reduced confusion internally, leading to smoother feature releases. The Client Success team retired their own wiki altogether in favor of the Product-led wiki. The Tech Support and Sales Education teams audited their materials using the Product wiki.
+
+## About The Sample
+
+The linked sample showcases this wiki, using a modified version of a page template from the wiki. I have included details of a dashcam product’s ability to detect tailgating on the road. This is a fictional feature based on a real feature I documented, though many details have been changed for this sample.
+
+Sample: [Headway Warning Identification (AM2)](/samples/hww)
