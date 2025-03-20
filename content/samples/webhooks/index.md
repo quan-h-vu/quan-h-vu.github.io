@@ -11,7 +11,7 @@ showTableOfContents = true
 
 ## About This Sample
 
-The sample below is one of my first pieces of API documentation. This provides an overview of available webhooks including details on authentication and payload delivery.
+The sample below is one of my first pieces of API documentation. This provides an overview of available webhooks including details on authentication and payload delivery. [A companion piece](/samples/DTCwebhook) to this document provides details on a specific webhook.
 
 | Data | Description                           |
 |----------|---------------------------------------|
@@ -19,7 +19,7 @@ The sample below is one of my first pieces of API documentation. This provides a
 | SMEs     | multiple engineers, product manager |
 | Others   | Tech Support lead                                  |
 
-The sample begins below the line.
+The source document is available [here](https://lytxdeveloperportal.redoc.ly/docs/webhookparent/). It has been reproduced below to preserve my contributions. The sample begins below the line.
 
 ---
 
