@@ -19,9 +19,7 @@ The sample below showcases [an internal wiki I established](/samples/internalwik
 | SMEs     | multiple engineers, product manager                            |
 | Others   | Leads from Tech Support, Client Success, and Product Marketing |
 
-The original included audio files for the alerts used but these have not been reproduced. Links in the sample are blank cross-references.
-
-The sample begins below the line.
+The original included audio files for the alerts used but these have not been reproduced. Links in the sample are blank cross-references. The sample begins below the line.
 
 ---
 

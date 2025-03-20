@@ -1,6 +1,6 @@
 +++
 date = '2025-03-20T12:58:25-07:00'
-draft = true
+draft = false
 title = 'API Documentation: DTC Webhook Reference'
 type = 'post'
 description = 'This is one of my first pieces of API documentation. This provides an overview of available webhooks including details on authentication and payload delivery.'
@@ -19,7 +19,7 @@ The sample below is a companion to [one of my first pieces of API documentation]
 | SMEs     | multiple engineers, product manager |
 | Others   | none                                  |
 
-The source document is available [here](https://lytxdeveloperportal.redoc.ly/docs/webhook_dtc/). It has been reproduced below to preserve my contributions. The sample begins below the line.
+The source document is available [here](https://lytxdeveloperportal.redoc.ly/docs/webhook_dtc/). It has been reproduced below for preservation. The sample begins below the line.
 
 ---
 

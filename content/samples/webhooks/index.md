@@ -19,7 +19,7 @@ The sample below is one of my first pieces of API documentation. This provides a
 | SMEs     | multiple engineers, product manager |
 | Others   | Tech Support lead                                  |
 
-The source document is available [here](https://lytxdeveloperportal.redoc.ly/docs/webhookparent/). It has been reproduced below to preserve my contributions. The sample begins below the line.
+The source document is available [here](https://lytxdeveloperportal.redoc.ly/docs/webhookparent/). It has been reproduced below for preservation. The sample begins below the line.
 
 ---
 
