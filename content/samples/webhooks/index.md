@@ -11,7 +11,7 @@ showTableOfContents = true
 
 ## About This Sample
 
-The sample below is one of my first pieces of API documentation. This provides an overview of available webhooks including details on authentication and payload delivery. [A companion piece](/samples/DTCwebhook) to this document provides details on a specific webhook.
+The sample below is one of my first pieces of API documentation. This provides an overview of available webhooks including details on authentication and payload delivery. [A companion piece](/samples/dtcwebhook) to this document provides details on a specific webhook.
 
 | Data | Description                           |
 |----------|---------------------------------------|
