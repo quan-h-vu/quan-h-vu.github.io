@@ -5,7 +5,7 @@ title = 'Success Story: Updating a Release Notes template'
 type = 'post'
 description = 'I led an initiative to improve our internal release notes template. This story highlights my leadership and expertise in content strategy.'
 tags = ['release notes','content strategy','leadership','success story','Sharepoint','MS Word']
-weight = 10
+weight = 20
 showTableOfContents = true
 +++
 
@@ -34,6 +34,12 @@ Average views on release notes increased after updating the template. Two months
 ## About This Sample
 
 The sample below shows two release notes for the same item, using the previous template and a modified version of the updated template. This is a fictional release item based on a real release I documented, though many details have been changed for this sample.
+
+| Criteria | Description                                                  |
+|----------|--------------------------------------------------------------|
+| Tools    | Sharepoint, MS Word                                          |
+| SMEs     | product manager                       |
+| Others   | none |
 
 The sample begins below the line.
 

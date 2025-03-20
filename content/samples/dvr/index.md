@@ -5,7 +5,7 @@ title = 'Procedure: Retrieving DVR footage'
 type = 'post'
 description = 'This sample was written about a fictional dashcam product, showing users how to retrieve DVR video via an online portal.'
 tags = ['procedure','Madcap Flare']
-weight = 20
+weight = 25
 showTableOfContents = true
 +++
 
@@ -13,7 +13,13 @@ showTableOfContents = true
 
 The sample below was written about a fictional dashcam product, showing users how to retrieve DVR video via an online portal. The product is based on a real product I have documented, though many details have been changed in this document.
 
-This was originally created using Madcap Flare. I have recreated it here in Markdown. The original also includes an image showing the equivalent to the Video Retrieval page but that has not been reproduced. Links in the sample are blank cross-references.
+| Criteria | Description                  |
+|----------|------------------------------|
+| Tools    | Madcap Flare                 |
+| SMEs     | product manager, UX designer |
+| Others   | none                         |
+
+The original includes an image showing the equivalent to the Video Retrieval page but that has not been reproduced. Links in the sample are blank cross-references.
 
 The sample begins below the line.
 

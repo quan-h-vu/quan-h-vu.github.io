@@ -1,17 +1,23 @@
 +++
 date = '2025-03-04T10:38:42-08:00'
 draft = false
-title = 'Procedure: Building a Site with Hugo and GitHub Pages'
+title = 'Procedure: Building a Site with Hugo'
 type = 'post'
 description = 'This site was built with Hugo, a static site generator. This sample documents how I created and deployed this site.'
 tags = ['Hugo','Git','SSG','procedure']
-weight = 9
+weight = 15
 showTableOfContents = true
 +++
 
 ## About This Sample
 
 The sample below was created to document my own process of creating this site. This is written primarily for other content developers moving from a traditional content management system into a static site generator.
+
+| Criteria | Description         |
+|----------|---------------------|
+| Tools    | Hugo, Git, Markdown |
+| SMEs     | none                |
+| Others   | none                |
 
 The sample begins below the line.
 
@@ -24,7 +30,7 @@ Hugo is one of the most popular SSGs available. For content developers intereste
 ## Tools
 
 - command line interface (CLI) tool
-	- [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5): Windows users must use Powershell as their CLI tool. Not to be confused with Windows Powershell, which should not be used.
+	- [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5): Windows users should use Powershell as their CLI tool. Not to be confused with Windows Powershell, which should not be used.
 - [Notepad++](https://notepad-plus-plus.org/), or text editor of your choice
 
 ## Installation

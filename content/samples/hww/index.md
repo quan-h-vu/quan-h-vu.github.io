@@ -13,7 +13,13 @@ showTableOfContents = true
 
 The sample below showcases [an internal wiki I established](/samples/internalwiki "Success Story: Building an Internal Product Wiki"), using a modified version of a page template from the wiki. I have included details of a dashcam product's ability to detect tailgating on the road. This is a fictional feature based on a real feature I documented, though many details have been changed for this sample.
 
-This was originally created in Confluence. I have recreated it here in Markdown. The original also included audio files for the alerts used but these have not been recreated. Links in the sample are blank cross-references.
+| Criteria | Description                                                    |
+|----------|----------------------------------------------------------------|
+| Tools    | Confluence                                                     |
+| SMEs     | multiple engineers, product manager                            |
+| Others   | Leads from Tech Support, Client Success, and Product Marketing |
+
+The original included audio files for the alerts used but these have not been reproduced. Links in the sample are blank cross-references.
 
 The sample begins below the line.
 
