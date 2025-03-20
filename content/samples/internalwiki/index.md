@@ -17,7 +17,7 @@ Operations teams were growing increasingly frustrated with the lack of informati
 
 They frequently turned to product managers for help. But without formal documentation, the knowledge shared was often lost in emails and chat histories. In addition, product managers themselves were spending more and more time answering questions rather than planning and researching new features.
 
-As a team-of-one tech writer, I had focused only on external documentation up to that point due to a lack of resources. But that only provided a basic level of detail. Teams like tech support and client success needed much more to support clients.
+As a team-of-one tech writer, I had focused only on external documentation up to that point due to a lack of resources. But that only provided a basic level of detail. Teams like Tech Support and Client Success needed much more to support clients.
 
 Further, I discovered that different operations teams had created their own knowledge silos to serve their needs. However, these silos often had outdated, conflicting, or incomplete information. This caused even more confusion.
 
@@ -35,7 +35,7 @@ Ultimately, the solution was not just the internal wiki. It was also [the mechan
 
 The wiki started gaining traction when I started collaborating with other teams more formally. I enlisted the help of product managers to contribute to articles about their features. I also started meeting with various operations teams on a monthly basis to discuss their documentation needs. This consistent communication and collaboration fostered trust in the internal wiki, promoting wider adoption.
 
-## Why It Matters
+## Results
 
 The Product-led wiki reduced confusion internally, leading to smoother feature releases. The Client Success team retired their own wiki altogether in favor of the Product-led wiki. The Tech Support and Sales Education teams audited their materials using the Product wiki.
 

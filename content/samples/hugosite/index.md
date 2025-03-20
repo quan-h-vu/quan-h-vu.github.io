@@ -1,10 +1,10 @@
 +++
 date = '2025-03-04T10:38:42-08:00'
 draft = false
-title = 'Building a Portfolio with Hugo and GitHub Pages'
+title = 'Procedure: Building a Site with Hugo and GitHub Pages'
 type = 'post'
 description = 'This site was built with Hugo, a static site generator. This sample documents how I created and deployed this site.'
-tags = ['Hugo','Git','SSG','task']
+tags = ['Hugo','Git','SSG','procedure']
 weight = 9
 showTableOfContents = true
 +++
@@ -17,14 +17,14 @@ The sample begins below the line.
 
 ---
 
-This portfolio site was built using Hugo, [a static site generator (SSG)](https://idratherbewriting.com/learnapidoc/pubapis_static_site_generators.html). SSGs are becoming increasingly common as a publishing tool, particularly for API documentation and other docs-as-code scenarios. Unlike a traditional content management system (CMS), SSGs don't have databases. This enables them to build websites more quickly. They are also more secure because without a database, there is no threat of database hacks.
+This portfolio site was built using Hugo, [a static site generator (SSG)](https://idratherbewriting.com/learnapidoc/pubapis_static_site_generators.html). SSGs are becoming increasingly common as a publishing tool, particularly for API documentation and other docs-as-code scenarios. Unlike a traditional content management system (CMS) like Wordpress, SSGs don't have databases. This enables them to build websites more quickly. They are also more secure because without a database, there is no threat of database hacks.
 
 Hugo is one of the most popular SSGs available. For content developers interested in creating a portfolio site, follow this guide to create a Hugo site and deploy it to GitHub Pages.
 
 ## Tools
 
 - command line interface (CLI) tool
-	- [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5): Windows users must use Powershell as their CLI. Not to be confused with Windows Powershell, which should not be used.
+	- [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5): Windows users must use Powershell as their CLI tool. Not to be confused with Windows Powershell, which should not be used.
 - [Notepad++](https://notepad-plus-plus.org/), or text editor of your choice
 
 ## Installation

@@ -1,10 +1,10 @@
 +++
 date = '2025-02-18T16:34:16-08:00'
 draft = false
-title = 'Success Story: Internal Release Notes template'
+title = 'Success Story: Updating a Release Notes template'
 type = 'post'
 description = 'I led an initiative to improve our internal release notes template. This story highlights my leadership and expertise in content strategy.'
-tags = ['release notes','content strategy','leadership','success story']
+tags = ['release notes','content strategy','leadership','success story','Sharepoint','MS Word']
 weight = 10
 showTableOfContents = true
 +++
@@ -17,44 +17,58 @@ Product managers were responsible for providing internal release notes to operat
 
 The PMs themselves were also frustrated because they used the release notes to communicate important information. But they still received questions on details addressed in the release notes.
 
-I investigated the issue. In my analysis, I concluded that the existing template for each release item was too vague. This didn’t cause vague release notes directly. But the level of detail and writing quality varied widely between PMs. The inconsistency discouraged users from reading the release notes on a regular basis.
-
 ## Solution Implemented
 
-I crafted a new template calling for more specific information. Rather than one generalized ‘Description’ field, I created separate fields for:
+I investigated the issue. In my analysis, I concluded that the existing template for each release item was too vague. In addition, certain release items didn't seem to fit the template, making for uninformative release notes. The level of detail and writing quality varied widely. The inconsistency discouraged users from reading the release notes on a regular basis.
+
+I crafted a new template calling for more specific information. Because PMs were the main authors, I used terms familiar to them. The new template called for these fields:
 
 - Problem Addressed
 - Solution Implemented
-- Why It Matters to Clients
+- Why It Matters
 
-To finalize the template, I gathered feedback from several stakeholders, including:
+## Results
 
-- product managers
-- director of Product Management
-- another tech writer
-- tech support leads
-- Client Success leads
-- Sales Education lead
-
-## Why It Matters
-
-Calling details out separately–and in terms familiar to product managers–helped the PMs understand how to write more effective release notes. 
-
-This collaboration also helped establish trust with PMs and various operations teams. This led to more consistent, detailed release notes, which led to increased views on release notes going forward.
+Average views on release notes increased after updating the template. Two months after the change, average views had increased by over 40%.
 
 ## About This Sample
 
-The sample below uses a modified version of the final internal release notes template. I also added a fictional release item based on a real release I documented, though many details have been changed for this sample.
+The sample below shows two release notes for the same item, using the previous template and a modified version of the updated template. This is a fictional release item based on a real release I documented, though many details have been changed for this sample.
 
 The sample begins below the line.
 
 ---
 
-## Bugfix: Corrected timestamps on Ignitions Report
+## Previous Template
 
-- **Clients Affected**: All Maintenance Solutions clients
-- **Problem Addressed**: A temporary service outage of a third-party processor caused incorrect timestamps to be applied to ignition changes recorded during the outage. This outage took place from 04:44 A.M. PDT to 05:09 A.M. PDT.
-- **Solution Implemented**: The timestamps for affected ignition records were corrected by sourcing the timestamp from the associated device instead of from the processor. The Ignitions Report was also updated to use the same source.
-- **Why It Matters to Clients**: Ignition has significant downstream impact, affecting employee drive time and vehicle usage metrics. The updated source provides a more accurate representation of the ignition change. This also prevents future processor outages from affecting ignition data.
+### (LLCJ-4321) Event Tags for Video Retrieval
+
+- **Clients Affected**: All Video Retrieval clients
+- **Previous Behavior**: Event tags were not displayed on the Video Retrieval page.
+- **Updated Behavior**: Event tags are now displayed on the Video Retrieval page. The events indicated below are captured.
+
+| Event   | Description                                          |
+|---------|------------------------------------------------------|
+| Ign ON  | Ignition was turned on.                              |
+| Ign OFF | Ignition was turned off.                             |
+| Door    | A door was opened. Includes any door of the vehicle. |
+| Ramp    | A ramp or lift was activated.                        |
+	
+---
+
+## Updated Template
+
+### Enhancement: Event Tags for Video Retrieval
+
+- **Clients Affected**: All Video Retrieval clients
+- **Problem Addressed**: Users needed more help searching through DVR footage. Each camera can hold up to 200 hours of footage using the default SD card. Sifting through footage is the most time-consuming aspect of video retrieval.
+- **Solution Implemented**: Event tags are now displayed on the Video Retrieval page. The events indicated below are captured.
+- **Why It Matters**: Event tags give users more context into vehicle trips to aid their search.
 - **Jira ID**: LLCJ-4321
-- **Product Manager**: Dawn O. Era
+
+| Event   | Description                                          |
+|---------|------------------------------------------------------|
+| Ign ON  | Ignition was turned on.                              |
+| Ign OFF | Ignition was turned off.                             |
+| Door    | A door was opened. Includes any door of the vehicle. |
+| Ramp    | A ramp or lift was activated.                        |
