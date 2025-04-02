@@ -1,6 +1,6 @@
 +++
 date = '2025-02-18T16:34:47-08:00'
-draft = true
+draft = false
 title = 'Procedure: Retrieving DVR footage'
 type = 'post'
 description = 'This sample was written about a fictional dashcam product, showing users how to retrieve DVR video via an online portal.'

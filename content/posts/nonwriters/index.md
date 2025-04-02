@@ -26,7 +26,7 @@ People like to say that no one reads but that's not strictly true. No one reads 
 
 As a writer, one of your goals is to facilitate the visual scanning of text. You can accomplish this in many ways.
 
-- **Headings**: Organize your content into logical sections with descriptive headings (the title also counts as a type of heading). Users typically look to headings first to guide their search for information. Craft accurate, concise headings to help users decide quickly if a section of the document is relevant to them. 
+- **Sections and headings**: Break up content into logical sections with descriptive headings (the title also counts as a type of heading). Users typically look to headings first to guide their search for information. Craft accurate, concise headings to help users decide quickly if a section of the document is relevant to them. 
 - **Lists and tables**: Use lists and tables frequently. Lists and tables are highly organized forms of information, making them easy to scan.
 - **Graphics and screenshots**: Include graphics and screenshots that aid comprehension. Some examples include screenshots/mockups of software, line drawings of hardware, and workflow diagrams.
 - **Table of contents**: For longer documents, a table of contents can give users an overview of the document and let them quickly jump to various sections.
@@ -71,6 +71,29 @@ The details you decide to exclude from your document are almost as important as 
 
 In UX, designers are often tasked with [reducing visual clutter from designs](https://www.lionandmason.com/ux-blog/reducing-cognitive-overload-declutter-your-design-for-better-ux/). The idea is that clutter distracts users, slowing them down from achieving their user goals.
 
-In writing, details that are unimportant can be seen as clutter. Every unimportant detail is a chance to distract readers. By removing unimportant details, users can more easily focus on the important details.
+In writing, details that are unimportant can be seen as clutter. Every unimportant detail is a chance to distract readers. By removing unimportant details, readers can more easily focus on the important details.
 
-Need concrete examples. How do I illustrate this?
+As an example, consider this section from [one of my own samples](/samples/hww). This section details how a fictional dashcam product detects instances of tailgating on the road:
+
+> 1. During a trip, the camera scans the road for the object vehicle in front of the driver's vehicle. It uses the driver's vehicle speed to calculate the distance in terms of seconds.
+> 2. The camera issues an audio alert when the distance between the driver's vehicle and the object vehicle is 1.0 seconds or less for 10 continuous seconds (min. speed: 40 km/h).
+> 3. If the driver's vehicle continues to meet the HWW criteria, the camera repeats the audio alert every 5 seconds.
+> 4. If the driver's vehicle meets the HWW criteria for 25 continuous seconds, an [incident log](/samples/hww "timeline of incident progression from first alert") is generated. Conversely, if the driver's vehicle stops meeting the HWW criteria before the 25-second threshold, a [prevention log](/samples/hww "timeline of incident progression and resolution") is generated.
+> 5. After generating a log, the timer for HWW identification is reset. 
+> 6. At the end of the trip, all logs are sent to users in the Drivecast online portal.
+
+Step 4 above uses two unique terms, "incident logs" and "prevention logs." In the version above, they are linked to a different resource, a glossary.
+
+However, if you wanted to keep readers on the page rather than sending them to a different page, you could add term definitions directly into the text. Consider this edited version:
+
+> 1. During a trip, the camera scans the road for the object vehicle in front of the driver's vehicle. It uses the driver's vehicle speed to calculate the distance in terms of seconds.
+> 2. The camera issues an audio alert when the distance between the driver's vehicle and the object vehicle is 1.0 seconds or less for 10 continuous seconds (min. speed: 40 km/h).
+> 3. If the driver's vehicle continues to meet the HWW criteria, the camera repeats the audio alert every 5 seconds.
+> 4. If the driver's vehicle meets the HWW criteria for 25 continuous seconds, an incident log (a timeline of incident progression from first alert) is generated. Conversely, if the driver's vehicle stops meeting the HWW criteria before the 25-second threshold, a prevention log (a timeline of incident progression and resolution) is generated.
+> 5. After generating a log, the timer for HWW identification is reset. 
+> 6. At the end of the trip, all logs are sent to users in the Drivecast online portal.
+
+
+
+
+Maybe try the Hazard ID section instead. Explain why I didn't explain incident logs/prevention logs.

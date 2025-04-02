@@ -1,6 +1,6 @@
 +++
 date = '2025-03-07T09:56:49-08:00'
-draft = true
+draft = false
 title = 'Concept: Headway Warning Identification (AM2)'
 type = 'post'
 description = 'This sample showcases an internal wiki I established. It documents how a fictional dashcam product detects tailgating on the road.'
