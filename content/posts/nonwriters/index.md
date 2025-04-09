@@ -4,7 +4,7 @@ description: "Writing abounds at all levels of any organization. Often, it's cre
 # image: ""
 lastmod: 2025-03-25
 showTableOfContents: false
-# tags: ["collaboration",]
+tags: ["collaboration","writing tips"]
 title: "Writing Tips for Non-Writers"
 type: "post"
 draft: true
@@ -31,6 +31,27 @@ As a writer, one of your goals is to facilitate the visual scanning of text. You
 - **Graphics and screenshots**: Include graphics and screenshots that aid comprehension. Some examples include screenshots/mockups of software, line drawings of hardware, and workflow diagrams.
 - **Table of contents**: For longer documents, a table of contents can give users an overview of the document and let them quickly jump to various sections.
 
+### Example: Using Lists
+
+As an example, consider the following excerpt from a posting for a technical writer position, describing desired knowledge and skills from applicants:
+
+> **Knowledge and Skills**: Broad knowledge and understanding of computer hardware, applications, network, and operating systems. Knowledge and understanding of related Information Technology trends. Able to read; write legibly; speak in English with professional quality; use computer, printer, and software programs necessary to the position (e.g., Word, Excel, Outlook, PowerPoint). Strong knowledge of project management software such as MS Project, Access, and other project management tools for task tracking and team collaboration efforts. Able to relate and communicate positively, effectively, and professionally with others; work calmly and respond courteously when under pressure; lead, supervise, teach, and collaborate; accept direction. Ability to deal effectively with people and elicit support from other department areas, vendors, and customers. Excellent analytic, communication, and documentation skills. Able to organize technical work; demonstrate excellent planning, problem solving, analysis, documentation, presentation and organization skills; analyze and interpret data, processes and needs based on limited information; organize work and resources; define problems and solutions, prioritize work load; make recommendations; manage time effectively and plan and implement objectives effectively. Able to communicate effectively in English in person, in writing, and on the telephone; think critically; work independently; perform basic math and statistical functions; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay close attention to detail. Able to distinguish colors as necessary; hear sufficiently for general conversation in person and on the telephone, and identify and distinguish various sounds associated with the workplace; see adequately to read computer screens, and written documents necessary to the position.
+
+This large block of text is hard to scan visually, except for its inline section heading. It would be much easier to scan if it were turned into a list.
+
+> **Knowledge and Skills**
+> - Broad knowledge and understanding of computer hardware, applications, network, and operating systems. Knowledge and understanding of related Information Technology trends.
+> - Able to read; write legibly; speak in English with professional quality; use computer, printer, and software programs necessary to the position (e.g., Word, Excel, Outlook, PowerPoint).
+> - Strong knowledge of project management software such as MS Project, Access, and other project management tools for task tracking and team collaboration efforts.
+> - Able to relate and communicate positively, effectively, and professionally with others; work calmly and respond courteously when under pressure; lead, supervise, teach, and collaborate; accept direction.
+> - Ability to deal effectively with people and elicit support from other department areas, vendors, and customers.
+> - Excellent analytic, communication, and documentation skills.
+> - Able to organize technical work; demonstrate excellent planning, problem solving, analysis, documentation, presentation and organization skills; analyze and interpret data, processes and needs based on limited information; organize work and resources; define problems and solutions, prioritize work load; make recommendations; manage time effectively and plan and implement objectives effectively.
+> - Able to communicate effectively in English in person, in writing, and on the telephone; think critically; work independently; perform basic math and statistical functions; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay close attention to detail.
+> - Able to distinguish colors as necessary; hear sufficiently for general conversation in person and on the telephone, and identify and distinguish various sounds associated with the workplace; see adequately to read computer screens, and written documents necessary to the position.
+
+This breaks up the large block of text into smaller, more digestible chunks. The bullets in the list above also provide visual anchors for each knowledge/skill requirement, letting readers jump between different requirements easily.
+
 ## Organize by Importance
 
 Another way to facilitate scanning is to organize information by importance, leading with the most important information. In journalism, this is known as the inverted pyramid method.
@@ -51,7 +72,7 @@ Let's edit this to see how the organization of details affects reading. Let's re
 
 >  With the AM2 model of hazard identification, audio alerts allow drivers to correct their own driving behavior; an incident log is only generated as the next level of escalation if they fail to react. Even further, prevention logs are generated for reactive drivers, giving managers an opportunity to recognize them. This model is designed to reward reactive drivers. It integrates audio alerts and incident logs into a cohesive system of escalation.
 
-Both versions make sense. They both communicate the same information. Taken in full, both versions are nearly identical.
+Both versions make sense. They both communicate the same information. Taken in full, both versions are functionally identical.
 
 Now, imagine our reader is interrupted. Because of this, they're only able to catch the first 160 characters of the paragraph.
 
@@ -67,33 +88,75 @@ The main difference between these excerpts is the mention of a reward for reacti
 
 ## Remove Clutter
 
-The details you decide to exclude from your document are almost as important as the details you decide to include. This is similar to the idea of clutter in UX design.
+Yet another way to facilitate scanning of text is to remove clutter. The details you decide to exclude from your document are almost as important as the details you decide to include. This is similar to the idea of clutter in UX design.
 
 In UX, designers are often tasked with [reducing visual clutter from designs](https://www.lionandmason.com/ux-blog/reducing-cognitive-overload-declutter-your-design-for-better-ux/). The idea is that clutter distracts users, slowing them down from achieving their user goals.
 
 In writing, details that are unimportant can be seen as clutter. Every unimportant detail is a chance to distract readers. By removing unimportant details, readers can more easily focus on the important details.
 
-As an example, consider this section from [one of my own samples](/samples/hww). This section details how a fictional dashcam product detects instances of tailgating on the road:
+### Example: Removing Unnecessary Details
 
-> 1. During a trip, the camera scans the road for the object vehicle in front of the driver's vehicle. It uses the driver's vehicle speed to calculate the distance in terms of seconds.
-> 2. The camera issues an audio alert when the distance between the driver's vehicle and the object vehicle is 1.0 seconds or less for 10 continuous seconds (min. speed: 40 km/h).
-> 3. If the driver's vehicle continues to meet the HWW criteria, the camera repeats the audio alert every 5 seconds.
-> 4. If the driver's vehicle meets the HWW criteria for 25 continuous seconds, an [incident log](/samples/hww "timeline of incident progression from first alert") is generated. Conversely, if the driver's vehicle stops meeting the HWW criteria before the 25-second threshold, a [prevention log](/samples/hww "timeline of incident progression and resolution") is generated.
-> 5. After generating a log, the timer for HWW identification is reset. 
-> 6. At the end of the trip, all logs are sent to users in the Drivecast online portal.
+As an example, let's revisit the excerpt above from the job posting. Let's use the version wherein we've turned the paragraph into a bulleted list.
 
-Step 4 above uses two unique terms, "incident logs" and "prevention logs." In the version above, they are linked to a different resource, a glossary.
+> **Knowledge and Skills**
+> - Broad knowledge and understanding of computer hardware, applications, network, and operating systems. Knowledge and understanding of related Information Technology trends.
+> - Able to read; write legibly; speak in English with professional quality; use computer, printer, and software programs necessary to the position (e.g., Word, Excel, Outlook, PowerPoint).
+> - Strong knowledge of project management software such as MS Project, Access, and other project management tools for task tracking and team collaboration efforts.
+> - Able to relate and communicate positively, effectively, and professionally with others; work calmly and respond courteously when under pressure; lead, supervise, teach, and collaborate; accept direction.
+> - Ability to deal effectively with people and elicit support from other department areas, vendors, and customers.
+> - Excellent analytic, communication, and documentation skills.
+> - Able to organize technical work; demonstrate excellent planning, problem solving, analysis, documentation, presentation and organization skills; analyze and interpret data, processes and needs based on limited information; organize work and resources; define problems and solutions, prioritize work load; make recommendations; manage time effectively and plan and implement objectives effectively.
+> - Able to communicate effectively in English in person, in writing, and on the telephone; think critically; work independently; perform basic math and statistical functions; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay close attention to detail.
+> - Able to distinguish colors as necessary; hear sufficiently for general conversation in person and on the telephone, and identify and distinguish various sounds associated with the workplace; see adequately to read computer screens, and written documents necessary to the position.
 
-However, if you wanted to keep readers on the page rather than sending them to a different page, you could add term definitions directly into the text. Consider this edited version:
+Although this version is easier to scan than the original, it still contains a lot of information. At a glance, a few items stand out as potential clutter. Each item should be evaluated separately.
 
-> 1. During a trip, the camera scans the road for the object vehicle in front of the driver's vehicle. It uses the driver's vehicle speed to calculate the distance in terms of seconds.
-> 2. The camera issues an audio alert when the distance between the driver's vehicle and the object vehicle is 1.0 seconds or less for 10 continuous seconds (min. speed: 40 km/h).
-> 3. If the driver's vehicle continues to meet the HWW criteria, the camera repeats the audio alert every 5 seconds.
-> 4. If the driver's vehicle meets the HWW criteria for 25 continuous seconds, an incident log (a timeline of incident progression from first alert) is generated. Conversely, if the driver's vehicle stops meeting the HWW criteria before the 25-second threshold, a prevention log (a timeline of incident progression and resolution) is generated.
-> 5. After generating a log, the timer for HWW identification is reset. 
-> 6. At the end of the trip, all logs are sent to users in the Drivecast online portal.
+The most glaring example of clutter is the last item:
 
+> - Able to distinguish colors as necessary; hear sufficiently for general conversation in person and on the telephone, and identify and distinguish various sounds associated with the workplace; see adequately to read computer screens, and written documents necessary to the position.
 
+These are skills generally required of most jobs. These statements are so obvious, they do not need to be called out explicitly. This should be removed.
 
+Similarly, the following two items contain many obvious statements. However, they cannot be removed completely because they also contain useful information.
 
-Maybe try the Hazard ID section instead. Explain why I didn't explain incident logs/prevention logs.
+> - Able to read; write legibly; speak in English with professional quality; use computer, printer, and software programs necessary to the position (e.g., Word, Excel, Outlook, PowerPoint).
+> - Able to communicate effectively in English in person, in writing, and on the telephone; think critically; work independently; perform basic math and statistical functions; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay attention to detail.
+
+Since the position in question is a technical writer role, we can deduce that communication is an important skill to highlight. However, many of the details here seem too obvious to call out because these are skills required of most jobs. This includes:
+
+- the ability to read, write, and speak
+- the language used (English)
+- the ability to use a computer and printer
+- the ability to "perform basic math and statistical functions"
+
+If we remove these details, the two items can be shortened as follows:
+
+> - Able to use software programs necessary to the position (e.g., Word, Excel, Outlook, PowerPoint).
+> - Able to communicate effectively in person, in writing, and on the telephone; think critically; work independently; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay attention to detail.
+
+After removing these more obvious details, we must remove duplicate content as some of the remaining skills overlap with each other.
+
+One remaining skill overlaps with multiple other listed skills. This can be removed.
+
+> - Excellent analytic, communication, and documentation skills.
+
+In addition, these two items overlap regarding the ability to communicate effectively.
+
+> - Able to relate and communicate positively, effectively, and professionally with others; work calmly and respond courteously when under pressure; lead, supervise, teach, and collaborate; accept direction.
+> - Able to communicate effectively in person, in writing, and on the telephone; think critically; work independently; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay attention to detail.
+
+These can be re-written as follows:
+
+> - Able to relate and communicate positively, effectively, and professionally with others in person, in writing, and on the telephone; work calmly and respond courteously when under pressure; lead, supervise, teach, and collaborate; accept direction.
+> - Able to think critically; work independently; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay attention to detail.
+
+With the suggestions above, the excerpt is finalized as follows:
+
+> **Knowledge and Skills**
+> - Broad knowledge and understanding of computer hardware, applications, network, and operating systems. Knowledge and understanding of related Information Technology trends.
+> - Able to use software programs necessary to the position (e.g., Word, Excel, Outlook, PowerPoint).
+> - Strong knowledge of project management software such as MS Project, Access, and other project management tools for task tracking and team collaboration efforts.
+> - Able to relate and communicate positively, effectively, and professionally with others in person, in writing, and on the telephone; work calmly and respond courteously when under pressure; lead, supervise, teach, and collaborate; accept direction.
+> - Ability to deal effectively with people and elicit support from other department areas, vendors, and customers.
+> - Able to organize technical work; demonstrate excellent planning, problem solving, analysis, documentation, presentation and organization skills; analyze and interpret data, processes and needs based on limited information; organize work and resources; define problems and solutions, prioritize work load; make recommendations; manage time effectively and plan and implement objectives effectively.
+> - Able to think critically; work independently; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay attention to detail.

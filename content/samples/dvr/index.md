@@ -4,7 +4,7 @@ draft = false
 title = 'Procedure: Retrieving DVR footage'
 type = 'post'
 description = 'This sample was written about a fictional dashcam product, showing users how to retrieve DVR video via an online portal.'
-tags = ['procedure','Madcap Flare']
+tags = ['procedure','MadCap Flare']
 weight = 25
 showTableOfContents = true
 +++
@@ -15,7 +15,7 @@ The sample below was written about a fictional dashcam product, showing users ho
 
 | Criteria | Description                  |
 |----------|------------------------------|
-| Tools    | Madcap Flare                 |
+| Tools    | MadCap Flare                 |
 | SMEs     | product manager, UX designer |
 | Others   | none                         |
 
