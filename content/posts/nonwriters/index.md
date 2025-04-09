@@ -7,7 +7,7 @@ showTableOfContents: false
 tags: ["collaboration","writing tips"]
 title: "Writing Tips for Non-Writers"
 type: "post"
-draft: true
+draft: false
 showTableOfContents: true
 ---
 
