@@ -4,7 +4,7 @@ description: "Writing abounds at all levels of any organization. Often, it's cre
 # image: ""
 lastmod: 2025-03-25
 showTableOfContents: false
-tags: ["collaboration","writing tips"]
+tags: ["collaboration","writing tips","lessons learned"]
 title: "Writing Tips for Non-Writers"
 type: "post"
 draft: false
@@ -18,7 +18,9 @@ I have spent much of my technical writing career as a "team-of-one" writer. One 
 - Technical support leads write troubleshooting articles and scripts for specific scenarios.
 - Account managers answer client questions via email.
 
-Writing abounds at all levels of any organization. Sometimes, content is created by professional writers. But often, it's created by non-writers who just happen to write for their profession at times. For these non-writers, here are my writing tips to help you communicate more effectively.
+Writing abounds at all levels of any organization. Sometimes, content is created by professional writers. But often, it's created by non-writers who need to write for their profession at times.
+
+As a technical writer, one way to affect content strategy on a broad scale is to help non-writers improve their writing skills. For these non-writers, here are my writing tips to help you write more effectively.
 
 ## Write for Scanning
 
@@ -50,7 +52,7 @@ This large block of text is hard to scan visually, except for its inline section
 > - Able to communicate effectively in English in person, in writing, and on the telephone; think critically; work independently; perform basic math and statistical functions; manage multiple assignments; compose written material; work well under pressure; recall information with accuracy; pay close attention to detail.
 > - Able to distinguish colors as necessary; hear sufficiently for general conversation in person and on the telephone, and identify and distinguish various sounds associated with the workplace; see adequately to read computer screens, and written documents necessary to the position.
 
-This breaks up the large block of text into smaller, more digestible chunks. The bullets in the list above also provide visual anchors for each knowledge/skill requirement, letting readers jump between different requirements easily.
+This list breaks up a single, large wall of text into several smaller, more digestible chunks. The bullets in the list above also provide visual anchors for each knowledge/skill requirement, letting readers jump between different requirements easily.
 
 ## Organize by Importance
 
@@ -88,11 +90,13 @@ The main difference between these excerpts is the mention of a reward for reacti
 
 ## Remove Clutter
 
-Yet another way to facilitate scanning of text is to remove clutter. The details you decide to exclude from your document are almost as important as the details you decide to include. This is similar to the idea of clutter in UX design.
+Knowing that readers can and will be interrupted, yet another way to facilitate scanning of text is to remove clutter. This is similar to the idea of clutter in UX design.
 
-In UX, designers are often tasked with [reducing visual clutter from designs](https://www.lionandmason.com/ux-blog/reducing-cognitive-overload-declutter-your-design-for-better-ux/). The idea is that clutter distracts users, slowing them down from achieving their user goals.
+In UX, designers are often tasked with [reducing visual clutter from designs](https://www.lionandmason.com/ux-blog/reducing-cognitive-overload-declutter-your-design-for-better-ux/). Clutter distracts users, slowing them down from achieving their user goals.
 
-In writing, details that are unimportant can be seen as clutter. Every unimportant detail is a chance to distract readers. By removing unimportant details, readers can more easily focus on the important details.
+Similarly, in writing, clutter includes details that distract readers from finding the desired information. This can include details that are unimportant or unrelated to the issue at hand. This can also include duplicate content.
+
+As a writer, one of your goals is to minimize clutter. If we imagine our reader is interrupted again after only 160 characters, if those 160 characters contained any clutter, that reader has likely gained very little value, if any.
 
 ### Example: Removing Unnecessary Details
 
