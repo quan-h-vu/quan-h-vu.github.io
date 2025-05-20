@@ -5,7 +5,7 @@ theme = 'gokarna'
 pygmentsStyle = "solarized-dark256"
 
 [params]
-	description = 'Technical writer, content developer, newbie coder, veteran pun crafter. I break down walls of text to build bridges to knowledge.'
+	description = 'Technical writer, content developer, coding enthusiast, veteran pun crafter. I break down walls of text to build bridges to knowledge.'
 	avatarUrl = '/images/self.jpg'
 	avatarAltText = 'Portrait of Quan'
 	showBackToTopButton = true
