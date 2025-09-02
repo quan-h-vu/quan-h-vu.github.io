@@ -3,7 +3,6 @@ date: 2025-03-25T09:58:04-07:00
 description: "Writing abounds at all levels of any organization. Often, it's created by non-writers who just happen to write at times. For these non-writers, here are my tips to help communicate more effectively."
 # image: ""
 lastmod: 2025-03-25
-showTableOfContents: false
 tags: ["collaboration","writing tips","lessons learned"]
 title: "Writing Tips for Non-Writers"
 type: "post"
