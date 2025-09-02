@@ -29,13 +29,13 @@ The sample begins below the line.
 
 The Behavioral Change Score helps gauge managers' performance in training their drivers. The score is built on the premise that if drivers are trained effectively on a specific behavior, they should be less likely to repeat that behavior. The score compares the number of behaviors a manager has coached ("Targeted Behaviors") with the number of behaviors their drivers have repeated ("Recurring Behaviors"). In addition, Recurring Behaviors are weighted by their ages (Behavior Age); as time passes, older instances of Recurring Behaviors are weighted less heavily than recent instances.
 
-![Behavioral Change Score equation](/content/samples/CEscore/BCSequation.png)
+![Behavioral Change Score equation](./BCSequation.png)
 
 ## Basics
 
 To understand the score, we'll use a training scenario. Refer to the chart below while following the scenario as it tracks how the manager's Behavioral Change Score fluctuates throughout.
 
-![Line graph showing Behavioral Change Score in the given scenario](/content/samples/CEscore/BCSoverview.png)
+![Line graph showing Behavioral Change Score in the given scenario](./BCSoverview.png)
 
 1. February 15: Driver Jake uses his cell phone while driving, triggering an incident report. His manager, Holt, sees the incident in the Fleet Safety System. He calls Jake to address the behavior.
 2. February 28: Unfortunately, Jake once again uses his cell phone while driving. The recurrence now impacts Holt's Behavioral Change Score, showing that the training wasn't effective.
@@ -71,7 +71,7 @@ Targeted Behaviors are defined by behavior, driver, and the training date.
 
 The age of the Recurring Behavior determines its impact. If the behavior was repeated today, it retains its full weight. In 45 days, it will be weighted at 50%. In 90 days, it will be weighted at 0%, at which point it stops affecting the Behavioral Change Score.
 
-![Chart showing Behavior Age impact](/content/samples/CEscore/BCSage.png)
+![Chart showing Behavior Age impact](./BCSage.png)
 
 ## Advanced Scenarios
 
@@ -79,8 +79,8 @@ The age of the Recurring Behavior determines its impact. If the behavior was rep
 
 If the driver Jake uses his cell phone while driving multiple times after Holt has coached him, each repetition counts separately. This situation indicates that Jake may have received less effective training than a driver who repeated that behavior just once after training. In the diagram below, the yellow indicates the period after coaching during which 'Phone Usage' events would qualify as Recurring Behaviors.
 
-![Chart showing the effect of multiple Recurring Behaviors](/content/samples/CEscore/BCSmulti1.png)
+![Chart showing the effect of multiple Recurring Behaviors](./BCSmulti1.png)
 
 When the first Recurring Behavior becomes older than 90 days, it drops out of the score. However, because the second Recurring Behavior is still less than 90 days old, it still counts. And because that second recurrence is within the qualifying period of the Targeted Behavior, the Targeted Behavior also still counts in favor of Holt.
 
-![Chart showing the effect of multiple Recurring Behaviors](/content/samples/CEscore/BCSmulti2.png)
+![Chart showing the effect of multiple Recurring Behaviors](./BCSmulti2.png)
