@@ -1,6 +1,7 @@
 ---
 date: '2025-08-28T11:20:51-07:00'
-draft: true
+draft: false
+weight: 7
 title: 'Concept: Behavioral Change Score'
 description: "This sample explains the algorithm behind a complex metric in a road safety program."
 # image: ""
