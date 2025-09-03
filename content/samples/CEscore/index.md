@@ -27,7 +27,9 @@ The sample begins below the line.
 
 ---
 
-The Behavioral Change Score helps gauge managers' performance in training their drivers. The score is built on the premise that if drivers are trained effectively on a specific behavior, they should be less likely to repeat that behavior. The score compares the number of behaviors a manager has addressed ("Targeted Behaviors") with the number of behaviors their drivers have repeated ("Recurring Behaviors"). In addition, Recurring Behaviors are weighted by their ages (Behavior Age); as time passes, older instances of Recurring Behaviors are weighted less heavily than recent instances.
+The Behavioral Change Score helps gauge managers' performance in training their drivers. The score is built on the premise that if drivers are trained effectively on a specific behavior, they should be less likely to repeat that behavior.
+
+The score compares the number of behaviors a manager has addressed through training (**Targeted Behaviors**) with the number of behaviors their drivers have repeated (**Recurring Behaviors**). In addition, Recurring Behaviors are weighted by their ages (**Behavior Age**); as time passes, older instances of Recurring Behaviors are weighted less heavily than recent instances.
 
 ![Behavioral Change Score equation](./BCSequation.png)
 
@@ -50,7 +52,7 @@ Note that the Targeted Behavior continues to count favorably towards Holt's Beha
 
 By default, only behaviors on your organization's Flagged Behaviors list are included in the Behavioral Change Score.
 
-However, if a manager decides to train an unflagged behavior—for example, they decide an FYI status incident requires training—that behavior now becomes flagged on that particular incident and that incident counts towards the Behavioral Change Score. But if the driver repeats the behavior again afterward, the new incident must also be turned from FYI status to Training status for it to count in the score. If the incident remains in FYI status, it would not count.
+However, if a manager decides to train an unflagged behavior—for example, they decide an *FYI* status incident requires training—that behavior now becomes flagged on that particular incident and that incident counts towards the Behavioral Change Score. But if the driver repeats the behavior again afterward, the new incident must also be turned from *FYI* status to *Training* status for it to count in the score. If the incident remains in *FYI* status, it would not count.
 
 ### Targeted Behaviors
 
@@ -69,9 +71,9 @@ Targeted Behaviors are defined by behavior, driver, and the training date.
 
 ### Behavior Age Impact
 
-The age of the Recurring Behavior determines its impact. If the behavior was repeated today, it retains its full weight. In 45 days, it will be weighted at 50%. In 90 days, it will be weighted at 0%, at which point it stops affecting the Behavioral Change Score.
+The age of a Recurring Behavior incident determines its impact. If the behavior was repeated today, it retains its full weight. A different recurrence from 45 days ago is weighted at 50%. Yet another recurrence from 90 days ago is weighted at 0%, at which point it stops affecting the Behavioral Change Score.
 
-![Chart showing Behavior Age impact](./BCSage.png)
+![Chart showing Behavior Age impact](./BCSage1.png)
 
 ## Advanced Scenarios
 
