@@ -27,7 +27,7 @@ The sample begins below the line.
 
 ---
 
-The Behavioral Change Score helps gauge managers' performance in training their drivers. The score is built on the premise that if drivers are trained effectively on a specific behavior, they should be less likely to repeat that behavior. The score compares the number of behaviors a manager has coached ("Targeted Behaviors") with the number of behaviors their drivers have repeated ("Recurring Behaviors"). In addition, Recurring Behaviors are weighted by their ages (Behavior Age); as time passes, older instances of Recurring Behaviors are weighted less heavily than recent instances.
+The Behavioral Change Score helps gauge managers' performance in training their drivers. The score is built on the premise that if drivers are trained effectively on a specific behavior, they should be less likely to repeat that behavior. The score compares the number of behaviors a manager has addressed ("Targeted Behaviors") with the number of behaviors their drivers have repeated ("Recurring Behaviors"). In addition, Recurring Behaviors are weighted by their ages (Behavior Age); as time passes, older instances of Recurring Behaviors are weighted less heavily than recent instances.
 
 ![Behavioral Change Score equation](./BCSequation.png)
 
@@ -35,7 +35,7 @@ The Behavioral Change Score helps gauge managers' performance in training their 
 
 To understand the score, we'll use a training scenario. Refer to the chart below while following the scenario as it tracks how the manager's Behavioral Change Score fluctuates throughout.
 
-![Line graph showing Behavioral Change Score in the given scenario](./BCSoverview.png)
+![Line graph showing Behavioral Change Score in the given scenario](./BCSoverview1.png)
 
 1. February 15: Driver Jake uses his cell phone while driving, triggering an incident report. His manager, Holt, sees the incident in the Fleet Safety System. He calls Jake to address the behavior.
 2. February 28: Unfortunately, Jake once again uses his cell phone while driving. The recurrence now impacts Holt's Behavioral Change Score, showing that the training wasn't effective.
@@ -58,7 +58,7 @@ Targeted Behaviors are defined by behavior, driver, and the training date.
 
 - If multiple behaviors are addressed in one training session, each is counted separately.
 - If multiple drivers are trained on the same behavior, each is counted separately.
-- If multiple events with the same behavior are addressed in one session (i.e. bulk training), they count as one Targeted Behavior. Any recurrences are counted as just one Recurring Behavior.
+- If multiple incidents with the same behavior are addressed in one session (i.e. bulk training), they count as one Targeted Behavior. Any recurrences are counted as just one Recurring Behavior.
 - If a driver is trained multiple times in the same day on the same behavior, that is counted together as one Targeted Behavior. Any recurrences are counted as just one Recurring Behavior.
 
 ### Recurring Behaviors
@@ -77,7 +77,7 @@ The age of the Recurring Behavior determines its impact. If the behavior was rep
 
 ### The Effect of Multiple Recurring Behaviors
 
-If the driver Jake uses his cell phone while driving multiple times after Holt has coached him, each repetition counts separately. This situation indicates that Jake may have received less effective training than a driver who repeated that behavior just once after training. In the diagram below, the yellow indicates the period after coaching during which 'Phone Usage' events would qualify as Recurring Behaviors.
+If the driver Jake uses his cell phone while driving multiple times after Holt has trained him, each repetition counts separately. This situation indicates that Jake may have received less effective training than a driver who repeated that behavior just once after training. In the diagram below, the yellow indicates the period after training during which 'Phone Usage' incidents would qualify as Recurring Behaviors.
 
 ![Chart showing the effect of multiple Recurring Behaviors](./BCSmulti1.png)
 
