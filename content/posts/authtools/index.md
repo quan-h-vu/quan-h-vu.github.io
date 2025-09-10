@@ -1,6 +1,7 @@
 ---
 date: 2025-09-09T10:42:51-07:00
 description: "What the wrong authoring tool can teach you about finding the right authoring tool."
+draft: false
 # image: ""
 lastmod: 2025-09-09
 showTableOfContents: false
